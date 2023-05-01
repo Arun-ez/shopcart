@@ -1,0 +1,34 @@
+#view {
+    display: flex;
+    gap: 40px;
+    height: 550px;
+}
+
+#view>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    align-items: center;
+    display: flex;
+}
+
+#prices {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    align-items: center;
+    margin-right: 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+#prices button {
+    border: none;
+    padding: 10px 50px 10px 50px;
+    margin-left: 200px;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+}

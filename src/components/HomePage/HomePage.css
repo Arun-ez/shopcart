@@ -1,0 +1,32 @@
+#home h1 {
+    text-align: center;
+}
+
+#banner {
+    width: 95%;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: auto;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.slideImage {
+    animation-name: slideImage;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideImage {
+    from {
+        transform: scale(1.50);
+        opacity: 40%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

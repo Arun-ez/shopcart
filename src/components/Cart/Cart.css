@@ -1,0 +1,26 @@
+#cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#cartItem {
+    width: 80%;
+}
+
+#cart-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+#cartItem div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
